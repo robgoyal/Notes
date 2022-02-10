@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "25a189e5596a0699",
+    "type": "split",
+    "children": [
+      {
+        "id": "9558bbb83ce92c81",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Methodology/Post Exploitation/Windows.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ef662d75ea5d6be0",
+    "type": "split",
+    "children": [
+      {
+        "id": "40589c2a57bd2b46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91c27f0e8fec3e87",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d9f8c22a611cfc76",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 235
+  },
+  "right": {
+    "id": "c6b4b1a1e8e1ef4e",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0cd2485e767e7f8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aae43e878b3c0459",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Methodology/Post Exploitation/Windows.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "9558bbb83ce92c81",
+  "lastOpenFiles": [
+    "Methodology/Post Exploitation/Windows.md",
+    "Methodology/Reverse Shells/Reverse shells.md",
+    "Methodology/Enumeration/Web/Technologies.md",
+    "Methodology/Enumeration/Web/Domain.md",
+    "Methodology/Enumeration/nikto.md",
+    "Methodology/Exploitation/RCE.md",
+    "Methodology/Exploitation/Command Injection.md",
+    "Methodology/Enumeration/Gobuster.md",
+    "Concepts/Systems/Linux/Mac addresses.md",
+    "Concepts/Systems/Untitled.md"
+  ]
+}
