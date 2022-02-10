@@ -4,3 +4,11 @@ Occasionally, a target will redirect you to its domain if you specified the IP a
 ![[Pasted image 20220209175729.png]]
 
 The above request to 10.129.138.23 redirects us to horizontall.htb but our host does not know where this doman is supposed to point to. However, the hosted site will redirect us until the [[Virtual Hosts|Host]] Request header is horizontall.htb. 
+
+To add an entry to your `/etc/hosts`, insert the following line. 
+
+```
+10.129.138.23       horizontall.htb
+```
+
+If there are multiple entries with subdomains, append them on the same line.

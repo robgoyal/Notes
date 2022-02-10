@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Methodology/Post Exploitation/Windows.md",
+            "file": "Writeups/HTB/Horizontall/10 - Website.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Methodology/Post Exploitation/Windows.md",
+                "file": "Writeups/HTB/Horizontall/10 - Website.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "9558bbb83ce92c81",
   "lastOpenFiles": [
+    "Writeups/HTB/Horizontall/10 - Website.md",
+    "Writeups/HTB/Horizontall/5 - Enumeration.md",
+    "Methodology/Enumeration/Nmap.md",
+    "Writeups/HTB/Horizontall/0 - Overview.md",
+    "Methodology/Enumeration/Gobuster.md",
+    "Methodology/Enumeration/nikto.md",
+    "Methodology/Enumeration/Web/Domain.md",
     "Methodology/Post Exploitation/Windows.md",
     "Methodology/Reverse Shells/Reverse shells.md",
-    "Methodology/Enumeration/Web/Technologies.md",
-    "Methodology/Enumeration/Web/Domain.md",
-    "Methodology/Enumeration/nikto.md",
-    "Methodology/Exploitation/RCE.md",
-    "Methodology/Exploitation/Command Injection.md",
-    "Methodology/Enumeration/Gobuster.md",
-    "Concepts/Systems/Linux/Mac addresses.md",
-    "Concepts/Systems/Untitled.md"
+    "Methodology/Enumeration/Web/Technologies.md"
   ]
 }

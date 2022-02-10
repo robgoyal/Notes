@@ -1,5 +1,6 @@
 # Enumeration
 ## nmap
+**I initially performed a full port scan which is how i performed the following scan on ports 22 and 80.**
 ```
 ┌──(voldemort㉿voldemort)-[~/Documents/hacking/htb/machines]
 └─$ sudo nmap -p 22,80 -sC -sV -Pn -oA tcp_subset_ports_sv-sc 10.129.138.23            
@@ -21,14 +22,10 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 10.15 seconds
 ```
 
-Two services open after perfoming a full TCP scan:
-- 22 (SSH)
-- 80 (HTTP)
-
-The http-title [[Nmap#NSE | NSE]] script did not follow the redirect since there is no DNS reference to `horizontall.htb` so we'll need to add it to our `/etc/hosts` file. [[]]
-The website mentions that it could not follow the redirect to horizontall.htb. We'll need to update our /etc/hosts file with that domain. 
+The http-title [[Nmap#NSE |NSE]] script did not follow the redirect as we don't have a local DNS entry (also no global DNS entry) to  `horizontall.htb` so we'll need to add it to our `/etc/hosts` file. Refer to [[Domain]] for more information about this. 
 
 ## Gobuster
+### horizontall.htb
 Initial `gobuster` scan with common.txt.
 
 ```
@@ -89,3 +86,6 @@ by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
 ```
 
 Looks like there's nothing here so let's interact with the website.
+
+### api-prod.horizontall.htb
+
